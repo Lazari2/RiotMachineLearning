@@ -47,7 +47,7 @@ def create_riot_data(path):
 
     return X_train, y_train, X_test, y_test
 
-path = r'C:\Data\Programmers.DataWarehouse\src\Riot Project\ApacheAirFlow\ML\CompWinningPrediction\dataset\RiotDataSet3.csv'
+path = r'C:\compPrediction\Project_Loud\RiotMachineLearning\ML\CompWinningPrediction\dataset\RiotDataSet3.csv'
 
 X_train, y_train, X_test, y_test = create_riot_data(path)
 
@@ -108,7 +108,7 @@ plt.tight_layout()
 plt.show()
 
 saver = Saver()
-saver.save_model(model, r'C:\Data\Programmers.DataWarehouse\src\Riot Project\ApacheAirFlow\ML\CompWinningPrediction\models\model_riot7.pkl')
+saver.save_model(model, r'C:\compPrediction\Project_Loud\RiotMachineLearning\ML\CompWinningPrediction\models\model_riot7.pkl')
 
 print("Modelo salvo com sucesso.")
 

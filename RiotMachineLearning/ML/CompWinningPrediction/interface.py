@@ -19,7 +19,7 @@ def get_team_vector(champion_list, all_champions):
     
     return team_vector.reshape(1, -1)
 
-model_path = r'C:\Data\Programmers.DataWarehouse\src\Riot Project\ApacheAirFlow\ML\CompWinningPrediction\models\model_riot7.pkl'
+model_path = r'C:\compPrediction\Project_Loud\RiotMachineLearning\ML\CompWinningPrediction\models\model_riot7.pkl'
 
 model = Saver.load_model(model_path) 
 
