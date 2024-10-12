@@ -83,7 +83,7 @@ train = Train(model)
 
 history = train.train(
     X_train, y_train, validation_data=(X_test, y_test),
-    epochs=10000, batch_size=256, print_every=100
+    epochs=80, batch_size=256, print_every=100
 )
 
 train._evaluate_validation((X_test, y_test), batch_size=256)
